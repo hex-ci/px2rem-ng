@@ -2,7 +2,7 @@
   "name": "px2rem-ng",
   "main": "./lib/px2rem",
   "version": "0.0.3",
-  "description": "Convert px to rem plugin for atom.",
+  "description": "Convert px to rem plugin for atom. fork from pxrem.",
   "keywords": [
     "px",
     "rem"

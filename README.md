@@ -1,6 +1,6 @@
-# pxrem package
+# px2rem-ng package
 
-Convert px to rem plugin for atom.
+Convert px to rem plugin for atom. fork from pxrem.
 
 ## Demo
 

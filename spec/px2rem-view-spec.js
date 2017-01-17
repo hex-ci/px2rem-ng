@@ -1,8 +1,8 @@
 'use babel';
 
-import PxremView from '../lib/pxrem-view';
+import PxremView from '../lib/px2rem-view';
 
-describe('PxremView', () => {
+describe('Px2remView', () => {
   it('has one valid test', () => {
     expect('life').toBe('easy');
   });

@@ -3,7 +3,7 @@
     "atom-text-editor": [
       {
         "label": "Convert to rem",
-        "command": "pxrem:convert"
+        "command": "px2rem:convert"
       }
     ]
   },
@@ -12,11 +12,11 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "pxrem",
+          "label": "px2rem",
           "submenu": [
             {
               "label": "Convert",
-              "command": "pxrem:convert"
+              "command": "px2rem:convert"
             }
           ]
         }

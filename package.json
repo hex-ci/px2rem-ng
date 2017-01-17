@@ -1,7 +1,7 @@
 {
-  "name": "pxrem",
-  "main": "./lib/pxrem",
-  "version": "0.4.1",
+  "name": "px2rem-ng",
+  "main": "./lib/px2rem",
+  "version": "0.0.1",
   "description": "Convert px to rem plugin for atom.",
   "keywords": [
     "px",
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/showonne/pxrem.git"
+    "url": "git+https://github.com/hex-ci/px2rem-ng.git"
   },
   "license": "MIT",
   "engines": {

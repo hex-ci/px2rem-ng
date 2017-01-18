@@ -1,16 +1,18 @@
 {
   "name": "px2rem-ng",
-  "main": "./lib/px2rem",
+  "main": "./lib/index",
   "version": "0.0.4",
   "description": "Convert px to rem plugin for atom. fork from pxrem.",
+  "author": {
+    "name": "Hex",
+    "email": "hex@codeigniter.org.cn",
+    "url": "http://codeigniter.org.cn"
+  },
   "keywords": [
     "px",
     "rem"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hex-ci/px2rem-ng.git"
-  },
+  "repository": "https://github.com/hex-ci/px2rem-ng",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

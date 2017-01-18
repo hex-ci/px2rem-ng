@@ -23,7 +23,7 @@ describe('Px2rem', () => {
 
       // This is an activation event, triggering it will cause the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'px2rem:toggle');
+      atom.commands.dispatch(workspaceElement, 'px2rem-ng:toggle');
 
       waitsForPromise(() => {
         return activationPromise;
@@ -37,7 +37,7 @@ describe('Px2rem', () => {
 
         let pxremPanel = atom.workspace.panelForItem(pxremElement);
         expect(pxremPanel.isVisible()).toBe(true);
-        atom.commands.dispatch(workspaceElement, 'px2rem:toggle');
+        atom.commands.dispatch(workspaceElement, 'px2rem-ng:toggle');
         expect(pxremPanel.isVisible()).toBe(false);
       });
     });
@@ -55,7 +55,7 @@ describe('Px2rem', () => {
 
       // This is an activation event, triggering it causes the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'px2rem:toggle');
+      atom.commands.dispatch(workspaceElement, 'px2rem-ng:toggle');
 
       waitsForPromise(() => {
         return activationPromise;
@@ -65,7 +65,7 @@ describe('Px2rem', () => {
         // Now we can test for view visibility
         let pxremElement = workspaceElement.querySelector('.px2rem');
         expect(pxremElement).toBeVisible();
-        atom.commands.dispatch(workspaceElement, 'px2rem:toggle');
+        atom.commands.dispatch(workspaceElement, 'px2rem-ng:toggle');
         expect(pxremElement).not.toBeVisible();
       });
     });

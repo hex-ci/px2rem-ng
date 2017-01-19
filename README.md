@@ -1,4 +1,4 @@
-# px2rem plus
+# px2rem+ package
 
 Convert px to rem package for Atom. fork from pxrem.
 

@@ -12,7 +12,7 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "px => rem",
+          "label": "px2rem+",
           "submenu": [
             {
               "label": "Convert",

@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "px2rem-ng:convert"
+    "ctrl-c ctrl-p": "px2rem-ng:convert",
+    "ctrl-c ctrl-s": "px2rem-ng:settings"
   }
 }

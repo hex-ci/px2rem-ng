@@ -12,11 +12,15 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "px2rem",
+          "label": "px => rem",
           "submenu": [
             {
               "label": "Convert",
               "command": "px2rem-ng:convert"
+            },
+            {
+              "label": "Settings",
+              "command": "px2rem-ng:settings"
             }
           ]
         }

@@ -1,0 +1,6 @@
+{
+  "atom-workspace": {
+    "ctrl-c ctrl-p": "px2rem-plus:convert",
+    "ctrl-c ctrl-s": "px2rem-plus:settings"
+  }
+}

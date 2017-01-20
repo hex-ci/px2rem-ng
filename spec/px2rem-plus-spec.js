@@ -11,6 +11,10 @@ describe('Px2rem Plus', () => {
     waitsForPromise(() => {
       return activationPromise;
     });
+
+    waitsForPromise(() => {
+      atom.workspace.open();
+    });
   });
 
   it('converts', () => {

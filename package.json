@@ -12,7 +12,7 @@
     "px",
     "rem"
   ],
-  "repository": "https://github.com/hex-ci/px2rem-ng",
+  "repository": "https://github.com/hex-ci/px2rem-plus",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

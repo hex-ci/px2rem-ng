@@ -8,19 +8,19 @@ describe('Px2rem Plus', () => {
   beforeEach(() => {
     workspaceElement = atom.views.getView(atom.workspace);
     activationPromise = atom.packages.activatePackage('px2rem-plus');
-    waitsForPromise(() => {
-      return activationPromise;
-    });
 
     waitsForPromise(() => {
-      atom.workspace.open();
+      return atom.workspace.open();
     });
   });
 
   it('converts', () => {
-    let editor = atom.workspace.getActiveTextEditor();
-    editor.setText('6px');
-    let changeHandler = jasmine.createSpy('changeHandler');
+    let editor, changeHandler;
+
+    editor = atom.workspace.getActiveTextEditor();
+    editor.insertText('6px');
+    editor.selectAll();
+    changeHandler = jasmine.createSpy('changeHandler');
     editor.onDidChange(changeHandler);
     atom.commands.dispatch(workspaceElement, 'px2rem-plus:convert');
 

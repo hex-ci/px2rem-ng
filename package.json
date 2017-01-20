@@ -1,7 +1,7 @@
 {
   "name": "px2rem-plus",
   "main": "./lib/index",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "description": "Convert px to rem package for Atom. fork from pxrem.",
   "author": {
     "name": "Hex",

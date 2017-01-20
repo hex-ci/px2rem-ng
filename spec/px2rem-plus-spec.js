@@ -3,13 +3,12 @@
 import Px2rem from '../lib/index';
 
 describe('Px2rem Plus', () => {
-  let workspaceElement, activationPromise;
+  let activationPromise;
 
   beforeEach(() => {
-    workspaceElement = atom.views.getView(atom.workspace);
     activationPromise = atom.packages.activatePackage('px2rem-plus');
 
-    waitsForPromise(() => {
+    return waitsForPromise(() => {
       return atom.workspace.open();
     });
   });
@@ -18,11 +17,11 @@ describe('Px2rem Plus', () => {
     let editor, changeHandler;
 
     editor = atom.workspace.getActiveTextEditor();
-    editor.insertText('6px');
+    editor.setText('6px');
     editor.selectAll();
     changeHandler = jasmine.createSpy('changeHandler');
     editor.onDidChange(changeHandler);
-    atom.commands.dispatch(workspaceElement, 'px2rem-plus:convert');
+    atom.commands.dispatch(atom.views.getView(editor), 'px2rem-plus:convert');
 
     waitsForPromise(() => {
       return activationPromise;

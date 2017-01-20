@@ -15,8 +15,7 @@ describe('Px2rem Plus', () => {
 
   it('converts', () => {
     let editor = atom.workspace.getActiveTextEditor();
-    editor.insertText('6px');
-    editor.selectAll();
+    editor.setText('6px');
     let changeHandler = jasmine.createSpy('changeHandler');
     editor.onDidChange(changeHandler);
     atom.commands.dispatch(workspaceElement, 'px2rem-plus:convert');

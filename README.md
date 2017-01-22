@@ -5,7 +5,7 @@ Convert px to rem package for Atom. fork from pxrem.
 
 ## Convert in buffer
 
-Using the shortcut <kbd>ctrl-alt-r</kbd>.
+Convert all text or selected text. Using the shortcut <kbd>ctrl-alt-r</kbd>.
 
 ## Settings
 

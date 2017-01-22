@@ -3,6 +3,10 @@
 
 Convert px to rem package for Atom. fork from pxrem.
 
+## Autocomplete
+
+![](https://raw.githubusercontent.com/hex-ci/px2rem-plus/master/autocomplete.png)
+
 ## Convert in buffer
 
 Convert all text or selected text. Using the shortcut <kbd>ctrl-alt-r</kbd>.

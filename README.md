@@ -6,3 +6,13 @@ Convert px to rem package for Atom. fork from pxrem.
 ## Demo
 
 ![](https://raw.githubusercontent.com/hex-ci/px2rem-plus/master/example.gif)
+
+## Convert in buffer
+
+Using the shortcut <kbd>ctrl-alt-r</kbd>.
+
+## Settings
+
+Sets the base pixel size of the current file. Using the shortcut <kbd>ctrl-alt-p</kbd>.
+
+![](https://raw.githubusercontent.com/hex-ci/px2rem-plus/master/settings.png)

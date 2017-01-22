@@ -31,7 +31,7 @@ describe('Px2rem Plus', () => {
     });
 
     return runs(() => {
-      return expect(editor.getText()).toEqual('0.08rem');
+      return expect(editor.getText()).toEqual('.08rem');
     });
   });
 });

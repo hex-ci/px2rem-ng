@@ -18,6 +18,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {},
+  "devDependencies": {},
   "providedServices": {
     "autocomplete.provider": {
       "versions": {
@@ -25,8 +26,37 @@
       }
     }
   },
-  "devDependencies": {
-    "babel-eslint": "^7.1.1",
-    "eslint": "^3.13.1"
+  "configSchema": {
+    "base": {
+      "title": "Default Base",
+      "description": "The base pixel size for px convert to rem. This can be overridden inline.",
+      "type": "number",
+      "default": 75,
+      "minimum": 1,
+      "order": 1
+    },
+    "precision": {
+      "title": "Default Precision",
+      "description": "The number of digits to the right of the decimal point",
+      "type": "integer",
+      "default": 2,
+      "minium": 0,
+      "maxium": 20,
+      "order": 2
+    },
+    "comments": {
+      "title": "Comments",
+      "description": "Add origin pixel value like /&#0042; 100/75 &#0042;/",
+      "type": "boolean",
+      "default": false,
+      "order": 3
+    },
+    "leadingZero": {
+      "title": "Preserve Leading Zero",
+      "description": "Keep the leading zero for converted values < 1. E.g. 0.5rem (preserved) vs .5rem (not preserved)",
+      "type": "boolean",
+      "default": false,
+      "order": 4
+    }
   }
 }

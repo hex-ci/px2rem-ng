@@ -17,6 +17,10 @@ Sets the base pixel size of the current file. Using the shortcut <kbd>ctrl-alt-p
 
 Support for adding comments, e.g. `/* 100/75 */`
 
+## Preserve leading zero
+
+Keep the leading zero for converted values < 1. E.g. 0.5rem (preserved) vs .5rem (not preserved)
+
 ## Demo
 
 ![](https://raw.githubusercontent.com/hex-ci/px2rem-plus/master/example.gif)

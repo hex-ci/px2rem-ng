@@ -13,6 +13,10 @@ Sets the base pixel size of the current file. Using the shortcut <kbd>ctrl-alt-p
 
 ![](https://raw.githubusercontent.com/hex-ci/px2rem-plus/master/settings.png)
 
+## Comments
+
+Support for adding comments, e.g. `/* 100/75 */`
+
 ## Demo
 
 ![](https://raw.githubusercontent.com/hex-ci/px2rem-plus/master/example.gif)

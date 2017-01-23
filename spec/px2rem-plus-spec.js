@@ -3,9 +3,10 @@
 import Px2rem from '../lib/index';
 
 describe('Px2rem Plus', () => {
-  let activationPromise;
+  let workspaceElement, activationPromise;
 
   beforeEach(() => {
+    workspaceElement = atom.views.getView(atom.workspace);
     activationPromise = atom.packages.activatePackage('px2rem-plus');
 
     return waitsForPromise(() => {
@@ -20,7 +21,7 @@ describe('Px2rem Plus', () => {
     editor.setText('6px');
     changeHandler = jasmine.createSpy('changeHandler');
     editor.onDidChange(changeHandler);
-    atom.commands.dispatch(atom.views.getView(editor), 'px2rem-plus:convert');
+    atom.commands.dispatch(workspaceElement, 'px2rem-plus:convert');
 
     waitsForPromise(() => {
       return activationPromise;

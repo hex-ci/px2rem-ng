@@ -1,6 +1,8 @@
 # px2rem+ package
 [![Version](https://img.shields.io/apm/v/px2rem-plus.svg?style=flat-square)](https://atom.io/packages/px2rem-plus)
-[![macOS Build Status](https://travis-ci.org/hex-ci/px2rem-plus.svg?branch=master)](https://travis-ci.org/hex-ci/px2rem-plus) [![Windows Build Status](https://ci.appveyor.com/api/projects/status/x3xdn0hkr2ih7uhl?svg=true)](https://ci.appveyor.com/project/hex-ci/px2rem-plus)
+[![Downloads](https://img.shields.io/apm/dm/px2rem-plus.svg?style=flat-square)](https://atom.io/packages/px2rem-plus)
+[![Status Linux & OSX](https://img.shields.io/travis/hex-ci/px2rem-plus.svg?style=flat-square&label=Linux%20%26%20OSX)](https://travis-ci.org/hex-ci/px2rem-plus)
+[![Status Windows](https://img.shields.io/appveyor/ci/hex-ci/px2rem-plus.svg?style=flat-square&label=Windows)](https://ci.appveyor.com/project/hex-ci/px2rem-plus)
 
 Convert px to rem package for Atom. fork from pxrem.
 

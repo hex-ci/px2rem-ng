@@ -1,5 +1,5 @@
 {
-  "atom-text-editor": {
+  "atom-workspace": {
     "ctrl-alt-r": "px2rem-plus:convert",
     "ctrl-alt-p": "px2rem-plus:settings"
   },

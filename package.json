@@ -57,6 +57,13 @@
       "type": "boolean",
       "default": false,
       "order": 4
+    },
+    "twoWayConversion": {
+      "title": "Two-way Conversion",
+      "description": "Support to convert rem to px, using the base pixel size, but only in autocomplete.",
+      "type": "boolean",
+      "default": false,
+      "order": 5
     }
   }
 }

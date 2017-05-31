@@ -28,6 +28,10 @@ Support for adding comments, e.g. `/* 100/75 */`
 
 Keep the leading zero for converted values < 1. E.g. 0.5rem (preserved) vs .5rem (not preserved)
 
+## Two-way Conversion
+
+Support to convert rem to px, using the base pixel size, but only in autocomplete.
+
 ## Demo
 
 ![](https://raw.githubusercontent.com/hex-ci/px2rem-plus/master/example.gif)

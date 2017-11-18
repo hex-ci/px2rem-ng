@@ -1,4 +1,6 @@
 # px2rem+ package
+
+[![Join the chat at https://gitter.im/atom-px2rem-plus/Lobby](https://badges.gitter.im/atom-px2rem-plus/Lobby.svg)](https://gitter.im/atom-px2rem-plus/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Version](https://img.shields.io/apm/v/px2rem-plus.svg?style=flat-square)](https://atom.io/packages/px2rem-plus)
 [![Downloads](https://img.shields.io/apm/dm/px2rem-plus.svg?style=flat-square)](https://atom.io/packages/px2rem-plus)
 [![Status Linux & OSX](https://img.shields.io/travis/hex-ci/px2rem-plus.svg?style=flat-square&label=Linux%20%26%20OSX)](https://travis-ci.org/hex-ci/px2rem-plus)

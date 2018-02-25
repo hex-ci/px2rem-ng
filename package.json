@@ -18,7 +18,9 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^4.18.1"
+  },
   "providedServices": {
     "autocomplete.provider": {
       "versions": {

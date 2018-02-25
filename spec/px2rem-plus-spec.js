@@ -24,11 +24,9 @@ describe('Px2rem Plus', () => {
 
   describe('when the px2rem-plus:convert event is triggered', () => {
     it('converts', () => {
-      let changeHandler;
-
       editor = atom.workspace.getActiveTextEditor();
       editor.setText('6px');
-      changeHandler = jasmine.createSpy('changeHandler');
+      const changeHandler = jasmine.createSpy('changeHandler');
       editor.onDidChange(changeHandler);
       atom.commands.dispatch(workspaceElement, 'px2rem-plus:convert');
 

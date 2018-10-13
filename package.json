@@ -66,6 +66,13 @@
       "type": "boolean",
       "default": false,
       "order": 5
+    },
+    "useVwVh": {
+      "title": "Use vw and vh",
+      "description": "Use vw and vh instead of rem, using the base pixel size, but only in autocomplete.",
+      "type": "boolean",
+      "default": false,
+      "order": 6
     }
   }
 }
